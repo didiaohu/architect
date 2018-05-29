@@ -32,7 +32,7 @@ class ConcreteMediator extends Mediator {
       if(colleague instanceof FirstColleague){
           this.firstColleague.receive(message);
       } else if(colleague instanceof SecondColleague) {
-          this.secondColleague .receive(message);
+          this.secondColleague.receive(message);
       }
   }
 }
